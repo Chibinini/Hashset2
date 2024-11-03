@@ -21,6 +21,13 @@ public class Main {
 
         // Stampa la grandezza
         System.out.println("La grandezza dell'hashset è : " + vuoto.size());
+
+        //Svuota ashset
+        vuoto.clear();
+        System.out.println("L'hashset è stato svuotato");
+
+        //Stampo la grandezza dopo averlo svuotato
+        System.out.println("La grandezza dopo aver svuotato l'hashset è di : " + vuoto.size());
     }
 }
 
